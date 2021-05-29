@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { ChakraProvider, Box } from "@chakra-ui/react";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Projects from "./components/Projects";
+import Services from "./components/Services";
+import SocialMedia from "./components/common/SocialMedia";
+import MailLink from "./components/common/MailLink";
+import ScrollToTop from "./components/common/ScrollToTop";
+import theme from "./utils/theme";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ChakraProvider resetCSS={true} theme={theme}>
+      <Navbar />
+      <SocialMedia />
+      <MailLink />
+      <Box as="main" px={{ base: "5", lg: "100px", xl: "200px" }}>
+        <Hero />
+        <Services />
+        <About />
+        <Projects />
+        <Contact />
+      </Box>
+      <Footer />
+      <ScrollToTop />
+    </ChakraProvider>
   );
 }
 

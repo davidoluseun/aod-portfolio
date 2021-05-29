@@ -1,8 +1,10 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import Hero from "./components/Hero";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe("<App />", () => {
+  it("Renders <Hero /> component", () => {
+    render(<Hero />);
+    const headlineTwoElement = screen.getByText(/A. David Oluseun./i);
+    expect(headlineTwoElement).toBeInTheDocument();
+  });
 });

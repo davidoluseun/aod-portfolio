@@ -70,7 +70,7 @@ const Hero = () => {
         as={ScrollLink}
         to="contact"
         spy={true}
-        offset={-120}
+        offset={-60}
         smooth={"easeInOutQuint"}
         duration={300}
         activeClass="active"

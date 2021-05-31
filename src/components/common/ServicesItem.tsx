@@ -22,7 +22,6 @@ const ServicesItem = ({ ItemIcon, title, text }: ServicesItemProps) => {
       p="5"
       border="1px solid rgba(0, 0, 0, 0.23)"
       borderRadius="8px"
-      bg={colorMode === "dark" ? "darkV" : ""}
       borderColor={colorMode === "dark" ? "borderDark" : ""}
     >
       <Box

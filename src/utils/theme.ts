@@ -12,7 +12,7 @@ const breakpoints = createBreakpoints({
 const styles = {
   global: (props: GlobalStyleProps) => ({
     body: {
-      bg: mode("#fff", "#090c10")(props),
+      bg: mode("#fff", "#161b22")(props),
       color: mode("#000", "#fff")(props),
       fontSize: "18px",
     },
@@ -47,7 +47,8 @@ const theme = extendTheme({
     useSystemColorMode: false,
   },
   colors: {
-    dark: "#090c10",
+    dark: "#161b22",
+    navbarBg: "#090c10",
     light: "c9d1d9",
     darkV: "#0d1117",
     borderDark: "#30363d",

@@ -32,9 +32,8 @@ const Projects = () => {
           <ListItem
             key={project.id}
             p="5"
-            border="1px solid rgba(0, 0, 0, 0.23)"
             borderRadius="8px"
-            bg={colorMode === "dark" ? "darkV" : ""}
+            border="1px solid rgba(0, 0, 0, 0.23)"
             borderColor={colorMode === "dark" ? "borderDark" : ""}
           >
             <LinkBox

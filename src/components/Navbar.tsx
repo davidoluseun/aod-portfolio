@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <Flex
-      bg="#161b22"
+      bg="navbarBg"
       color="rgba(240, 246, 252, 0.7)"
       as="header"
       align="center"

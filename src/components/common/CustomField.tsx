@@ -38,7 +38,7 @@ const CustomField = ({
             <Input
               {...field}
               type={type}
-              bg={colorMode === "dark" ? "darkV" : ""}
+              bg={colorMode === "dark" ? "dark" : ""}
               focusBorderColor="primary"
               errorBorderColor="error"
               borderColor={colorMode === "light" ? "borderLight" : "borderDark"}
@@ -49,7 +49,7 @@ const CustomField = ({
             <Textarea
               {...field}
               name="message"
-              bg={colorMode === "dark" ? "darkV" : ""}
+              bg={colorMode === "dark" ? "dark" : ""}
               focusBorderColor="primary"
               errorBorderColor="error"
               borderColor={colorMode === "light" ? "borderLight" : "borderDark"}

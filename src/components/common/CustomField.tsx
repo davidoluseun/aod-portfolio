@@ -41,7 +41,7 @@ const CustomField = ({
               bg={colorMode === "dark" ? "dark" : ""}
               focusBorderColor="primary"
               errorBorderColor="error"
-              borderColor={colorMode === "light" ? "borderLight" : "borderDark"}
+              borderColor={colorMode === "light" ? "borderDark" : "borderLight"}
               _hover={{ borderColor: "none" }}
               placeholder={label}
             />
@@ -52,7 +52,7 @@ const CustomField = ({
               bg={colorMode === "dark" ? "dark" : ""}
               focusBorderColor="primary"
               errorBorderColor="error"
-              borderColor={colorMode === "light" ? "borderLight" : "borderDark"}
+              borderColor={colorMode === "light" ? "borderDark" : "borderLight"}
               _hover={{ borderColor: "none" }}
               placeholder="Your Message (required)"
             />

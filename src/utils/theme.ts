@@ -48,8 +48,8 @@ const theme = extendTheme({
   },
   colors: {
     dark: "#161b22",
-    borderDark: "#30363d",
-    borderLight: "rgba(0, 0, 0, 0.3)",
+    borderLight: "#30363d",
+    borderDark: "rgba(0, 0, 0, 0.23)",
     primary: "#1976d2",
     error: "#ff3548",
   },

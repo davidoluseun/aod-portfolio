@@ -22,7 +22,7 @@ const ServicesItem = ({ ItemIcon, title, text }: ServicesItemProps) => {
       p="5"
       border="1px solid rgba(0, 0, 0, 0.23)"
       borderRadius="8px"
-      borderColor={colorMode === "dark" ? "borderDark" : ""}
+      borderColor={colorMode === "dark" ? "borderLight" : ""}
     >
       <Box
         bg="primary"

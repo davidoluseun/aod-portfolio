@@ -34,7 +34,7 @@ const Projects = () => {
             p="5"
             borderRadius="8px"
             border="1px solid rgba(0, 0, 0, 0.23)"
-            borderColor={colorMode === "dark" ? "borderDark" : ""}
+            borderColor={colorMode === "dark" ? "borderLight" : ""}
           >
             <LinkBox
               d="flex"

@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <SocialMedia />
       <MailLink />
-      <Box as="main" px={{ base: "5", lg: "100px", xl: "200px" }}>
+      <Box as="main" px={{ base: "18px", lg: "100px", xl: "200px" }}>
         <Hero />
         <Services />
         <About />

@@ -22,7 +22,7 @@ const Navbar = () => {
       color="rgba(240, 246, 252, 0.8)"
       py={{ base: "10px", lg: "6.5px" }}
       wrap={{ base: "wrap", lg: "nowrap" }}
-      px={{ base: "5", lg: "10", xl: "76px" }}
+      px={{ base: "18px", lg: "10", xl: "76px" }}
       bg={colorMode === "light" ? "primary" : "dark"}
       borderBottom={colorMode === "dark" ? "1px solid #30363d" : ""}
     >

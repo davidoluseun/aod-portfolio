@@ -20,7 +20,7 @@ const ScrollToTop = () => {
         bg="transparent !important"
         pt="2"
         border="1px solid"
-        color={colorMode === "light" ? "#161b22" : "#fff"}
+        color={colorMode === "light" ? "#000" : "#fff"}
         borderColor="transparent"
         position="fixed"
         bottom="30px"

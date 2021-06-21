@@ -48,16 +48,11 @@ const theme = extendTheme({
   },
   colors: {
     dark: "#161b22",
-    navbarBg: "#090c10",
     light: "c9d1d9",
     darkV: "#0d1117",
     borderDark: "#30363d",
     borderLight: "rgba(0, 0, 0, 0.3)",
     primary: "#1976d2",
-    linkedin: "#0a66c2",
-    twitter: "#1da1f2",
-    githubLight: "#f0f6fc",
-    githubDark: "#161b22",
     error: "#ff3548",
   },
 });

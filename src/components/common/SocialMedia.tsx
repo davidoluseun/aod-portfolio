@@ -34,7 +34,7 @@ const SocialMedia = () => {
           >
             <VisuallyHidden>Github</VisuallyHidden>
             <Icon
-              color={colorMode === "light" ? "githubDark" : "githubLight"}
+              color={colorMode === "light" ? "#000" : "#fff"}
               as={FaGithub}
               boxSize="6"
             />
@@ -49,7 +49,7 @@ const SocialMedia = () => {
             d="inline-block"
           >
             <VisuallyHidden>LinkedIn</VisuallyHidden>
-            <Icon color="linkedin" as={FaLinkedinIn} boxSize="6" />
+            <Icon as={FaLinkedinIn} boxSize="6" />
           </Link>
         </ListItem>
         <ListItem>
@@ -61,17 +61,13 @@ const SocialMedia = () => {
             d="inline-block"
           >
             <VisuallyHidden>Twitter</VisuallyHidden>
-            <Icon color="twitter" as={FaTwitter} boxSize="6" />
+            <Icon as={FaTwitter} boxSize="6" />
           </Link>
         </ListItem>
         <ListItem>
           <Link href="tel:09154105623" p="3" d="inline-block">
-            <VisuallyHidden>Phone</VisuallyHidden>
-            <Icon
-              color={colorMode === "light" ? "#000" : "#fff"}
-              as={FaPhone}
-              boxSize="6"
-            />
+            <VisuallyHidden>Phone number</VisuallyHidden>
+            <Icon as={FaPhone} boxSize="6" />
           </Link>
         </ListItem>
       </List>

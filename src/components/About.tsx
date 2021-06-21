@@ -38,47 +38,51 @@ const About = () => {
           <Text mb="4">Technologies I work with includes:</Text>
 
           <List d="grid" gridTemplateColumns="repeat(2, 1fr)">
-            <ListItem>
-              <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
-              HTML
-            </ListItem>
-            <ListItem>
-              <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
-              CSS
-            </ListItem>
-            <ListItem>
-              <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
-              JavaScript
-            </ListItem>
-            <ListItem>
-              <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
-              TypeScript
-            </ListItem>
-            <ListItem>
-              <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
-              React
-            </ListItem>
+            <Box>
+              <ListItem>
+                <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
+                HTML
+              </ListItem>
+              <ListItem>
+                <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
+                CSS
+              </ListItem>
+              <ListItem>
+                <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
+                JavaScript
+              </ListItem>
+              <ListItem>
+                <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
+                TypeScript
+              </ListItem>
+              <ListItem>
+                <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
+                React
+              </ListItem>
+            </Box>
 
-            <ListItem>
-              <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
-              Redux
-            </ListItem>
-            <ListItem>
-              <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
-              Firebase
-            </ListItem>
-            <ListItem>
-              <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
-              Chakra UI
-            </ListItem>
-            <ListItem>
-              <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
-              Bootstrap
-            </ListItem>
-            <ListItem>
-              <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
-              jQuery
-            </ListItem>
+            <Box>
+              <ListItem>
+                <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
+                Redux
+              </ListItem>
+              <ListItem>
+                <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
+                Firebase
+              </ListItem>
+              <ListItem>
+                <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
+                Chakra UI
+              </ListItem>
+              <ListItem>
+                <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
+                Bootstrap
+              </ListItem>
+              <ListItem>
+                <ListIcon as={MdDoneAll} color="primary" boxSize="5" />
+                jQuery
+              </ListItem>
+            </Box>
           </List>
         </GridItem>
         <GridItem

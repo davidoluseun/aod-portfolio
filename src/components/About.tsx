@@ -10,6 +10,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 import { MdDoneAll } from "react-icons/md";
+import AboutImg from "../images/about-img.jpg";
 
 const About = () => {
   return (
@@ -85,7 +86,7 @@ const About = () => {
           maxW="300px"
           justifySelf={{ base: "center", md: "start" }}
         >
-          <Image src="http://placehold.it/415x554" alt="" />
+          <Image src={AboutImg} alt="Headshot" />
         </GridItem>
       </Grid>
     </Box>

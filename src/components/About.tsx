@@ -25,7 +25,7 @@ const About = () => {
       >
         <GridItem>
           <Text mb="4">
-            I’m is an engineering graduate of Federal University of Technology,
+            I’m an engineering graduate of Federal University of Technology,
             Minna Nigeria. A Front-end Web Developer with 2+ years of
             experience.
           </Text>

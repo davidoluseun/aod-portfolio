@@ -90,7 +90,7 @@ const About = () => {
           maxW="300px"
           justifySelf={{ base: "center", md: "start" }}
         >
-          <Image src={AboutImg} alt="Headshot" />
+          <Image src={AboutImg} alt="Headshot" borderRadius="sm" />
         </GridItem>
       </Grid>
     </Box>

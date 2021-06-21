@@ -74,7 +74,7 @@ const SocialMedia = () => {
 
       <Divider
         mt="5"
-        borderColor={colorMode === "light" ? "dark" : "light"}
+        borderColor={colorMode === "light" ? "#000" : "#fff"}
         orientation="vertical"
         height="90px"
       />

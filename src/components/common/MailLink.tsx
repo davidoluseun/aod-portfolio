@@ -16,7 +16,7 @@ const VMailLink = () => {
         mb="5"
         height="90px"
         orientation="vertical"
-        borderColor={colorMode === "light" ? "dark" : "light"}
+        borderColor={colorMode === "light" ? "#000" : "#fff"}
       />
 
       <Link

@@ -19,7 +19,7 @@ const Navbar = () => {
       zIndex="sticky"
       position="sticky"
       justify="space-between"
-      color="rgba(240, 246, 252, 0.7)"
+      color="rgba(240, 246, 252, 0.8)"
       py={{ base: "10px", lg: "6.5px" }}
       wrap={{ base: "wrap", lg: "nowrap" }}
       px={{ base: "5", lg: "10", xl: "76px" }}

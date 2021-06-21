@@ -3,10 +3,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
-
 ::selection {
   background: #1976d2;
   color: #fff;

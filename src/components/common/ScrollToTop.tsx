@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { Box, IconButton, useColorMode } from "@chakra-ui/react";
 import { animateScroll as scroll } from "react-scroll";
 import { FaRocket } from "react-icons/fa";

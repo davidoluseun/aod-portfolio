@@ -60,7 +60,12 @@ const Hero = () => {
       >
         I build UI that users love to use.
       </Heading>
-      <Text fontSize={{ lg: "20px" }} mt="24px" maxW="500px">
+      <Text
+        mt="24px"
+        maxW="500px"
+        fontSize={{ lg: "20px" }}
+        textAlign={{ base: "justify", md: "left" }}
+      >
         I'm a front-end web developer base in Lagos, Nigeria, specializing in
         React, with 2+ years experience, I love to build User Interfaces for
         everyone, I'm passionate about following best practices and standards.

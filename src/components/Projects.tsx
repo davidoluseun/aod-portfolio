@@ -21,7 +21,7 @@ const Projects = () => {
   return (
     <Box as="section" py="60px" id="projects">
       <Heading mb="12" textAlign="center" fontSize="40px" lineHeight="1.3">
-        Project
+        Projects
       </Heading>
       <List
         d="grid"

@@ -18,7 +18,7 @@ const styles = {
     },
 
     button: {
-      bg: "#1975d2 !important",
+      bg: "#022d5f !important",
       color: "#fff",
       _focus: {
         boxShadow: mode(
@@ -50,7 +50,7 @@ const theme = extendTheme({
     dark: "#161b22",
     borderLight: "#30363d",
     borderDark: "rgba(0, 0, 0, 0.23)",
-    primary: "#1976d2",
+    primary: "#022d5f",
     error: "#ff3548",
   },
 });

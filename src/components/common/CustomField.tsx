@@ -1,13 +1,6 @@
 import { Field, FieldAttributes } from "formik";
-import {
-  FormControl,
-  FormLabel,
-  Input,
-  Textarea,
-  VisuallyHidden,
-  FormErrorMessage,
-  useColorMode,
-} from "@chakra-ui/react";
+import { FormControl, FormLabel, Input, useColorMode } from "@chakra-ui/react";
+import { VisuallyHidden, FormErrorMessage, Textarea } from "@chakra-ui/react";
 
 type CustomFieldProps = {
   name: string;

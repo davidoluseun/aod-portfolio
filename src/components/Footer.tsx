@@ -1,12 +1,5 @@
-import {
-  Box,
-  Flex,
-  Text,
-  Icon,
-  Link,
-  VisuallyHidden,
-  useColorMode,
-} from "@chakra-ui/react";
+import { Box, Flex, Text, Icon, Link } from "@chakra-ui/react";
+import { VisuallyHidden, useColorMode } from "@chakra-ui/react";
 import { MdFavorite } from "react-icons/md";
 import { FaTwitter, FaGithub, FaPhone, FaLinkedinIn } from "react-icons/fa";
 

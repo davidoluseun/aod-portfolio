@@ -1,14 +1,5 @@
-import {
-  Box,
-  Text,
-  Heading,
-  Grid,
-  GridItem,
-  List,
-  ListItem,
-  ListIcon,
-  Image,
-} from "@chakra-ui/react";
+import { Box, Text, Heading, Grid, GridItem, List } from "@chakra-ui/react";
+import { ListItem, ListIcon, Image } from "@chakra-ui/react";
 import { MdDoneAll } from "react-icons/md";
 import AboutImg from "../images/about-img.jpg";
 

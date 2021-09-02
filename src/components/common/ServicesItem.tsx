@@ -1,12 +1,5 @@
-import {
-  Box,
-  Text,
-  Heading,
-  Icon,
-  GridItem,
-  useColorMode,
-  As,
-} from "@chakra-ui/react";
+import { Box, Text, Heading, Icon } from "@chakra-ui/react";
+import { GridItem, useColorMode, As } from "@chakra-ui/react";
 
 type ServicesItemProps = {
   ItemIcon: As;

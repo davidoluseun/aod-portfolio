@@ -1,13 +1,5 @@
-import {
-  Box,
-  Text,
-  Link,
-  Heading,
-  Image,
-  useColorMode,
-  keyframes,
-  usePrefersReducedMotion,
-} from "@chakra-ui/react";
+import { Box, Text, Link, Heading, Image, keyframes } from "@chakra-ui/react";
+import { useColorMode, usePrefersReducedMotion } from "@chakra-ui/react";
 import { Link as ScrollLink } from "react-scroll";
 import WavingImg from "../images/waving-hand-img.png";
 

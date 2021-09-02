@@ -1,14 +1,5 @@
-import {
-  Flex,
-  Link,
-  VisuallyHidden,
-  Icon,
-  List,
-  ListItem,
-  Divider,
-  useColorMode,
-} from "@chakra-ui/react";
-
+import { Flex, Link, VisuallyHidden, Icon, List } from "@chakra-ui/react";
+import { ListItem, Divider, useColorMode } from "@chakra-ui/react";
 import { FaTwitter, FaGithub, FaPhone, FaLinkedinIn } from "react-icons/fa";
 
 const SocialMedia = () => {

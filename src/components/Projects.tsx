@@ -1,19 +1,7 @@
 import * as React from "react";
-import {
-  Flex,
-  Box,
-  Text,
-  Heading,
-  List,
-  ListItem,
-  LinkBox,
-  LinkOverlay,
-  Link,
-  Icon,
-  useColorMode,
-  VisuallyHidden,
-  Button,
-} from "@chakra-ui/react";
+import { Flex, Box, Text, Heading, List, ListItem } from "@chakra-ui/react";
+import { LinkBox, LinkOverlay, Link, Icon } from "@chakra-ui/react";
+import { useColorMode, VisuallyHidden, Button } from "@chakra-ui/react";
 import { HiLink } from "react-icons/hi";
 import { FiGithub } from "react-icons/fi";
 import { getProjects } from "../services/projectService";
@@ -21,8 +9,8 @@ import { getProjects } from "../services/projectService";
 const Projects = () => {
   const [showMore, setShowMore] = React.useState(false);
   const { colorMode } = useColorMode();
-  const allProjects = getProjects();
 
+  const allProjects = getProjects();
   const projects = !showMore ? allProjects.slice(0, 6) : allProjects;
 
   const handleShowMoreToggle = () => {
@@ -31,11 +19,11 @@ const Projects = () => {
 
   return (
     <Flex
-      direction="column"
-      align="center"
-      as="section"
       py="60px"
+      as="section"
       id="projects"
+      align="center"
+      direction="column"
     >
       <Box>
         <Heading mb="12" textAlign="center" fontSize="40px" lineHeight="1.3">

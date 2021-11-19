@@ -20,8 +20,7 @@ const projects: ProjectType = [
   {
     title: "Ice and Fire",
     description:
-      "A book inventory application built with ReactJS using Ice and Fire API.\
-      It implements infinite loading, searching using different parameters while optimizing API calls between books and characters endpoints",
+      "A book inventory application built with ReactJS using Ice and Fire API. It implements infinite loading, searching using different parameters while optimizing API calls between books and characters endpoints",
     githubLink: "https://github.com/davidoluseun/ice-and-fire",
     siteLink: "https://aod-ice-and-fire.herokuapp.com/",
     languages: ["React", "TypeScript", "Chakra UI", "API"],

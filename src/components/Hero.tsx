@@ -97,7 +97,7 @@ const Hero = () => {
         mt="12"
         w="100px"
         bg="#fff"
-        href="http://bit.ly/aod-resume"
+        href="https://bit.ly/3DCfSQK"
         rel="noopener noreferrer"
         target="_blank"
         color="primary"

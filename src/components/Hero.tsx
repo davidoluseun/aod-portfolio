@@ -59,7 +59,7 @@ const Hero = () => {
         textAlign={{ base: "justify", md: "left" }}
       >
         I'm a front-end web developer base in Lagos, Nigeria, specializing in
-        React, with 2+ years experience, I love to build User Interfaces for
+        React, with 3 years experience, I love to build User Interfaces for
         everyone, I'm passionate about following best practices and standards.
       </Text>
 
